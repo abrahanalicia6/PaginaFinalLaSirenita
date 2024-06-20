@@ -1,0 +1,46 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9bdcf0;
+}
+
+header {
+    background-color: #008b8b;
+    color: rgb(134, 93, 93);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h3 {
+    color: #eaeeee;
+}
+
+#sirenita-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sirenita-item {
+    background-color: #f5efef;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.sirenita-item img {
+    max-width: 55%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.sirenita-item h3 {
+    margin: 10px 0 5px;
+}
